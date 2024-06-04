@@ -1,6 +1,7 @@
 #!/usr/bin/env groovy
 def call(){
-     echo 'Installing application'
+
+     echo "Installing package for branch $BRANCH_NAME"
      sh 'npm install'
          
 }
