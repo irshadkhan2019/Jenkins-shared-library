@@ -1,7 +1,7 @@
 #!/usr/bin/env groovy
 package com.example
 
-class Docker implements Sericalizable{
+class Docker implements Serializable{
     def script //used to stores all variable available in Jenkinsfile
     
     Docker(script){
